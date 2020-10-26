@@ -22,7 +22,7 @@ function draw() {
 	ellipse(100, 375, 150, 100)//right cheek
 	ellipse(600, 375, 150, 100)//left cheek
 	//nose// 
-	fill('#7D5519');//skin color
+	fill('#C47964');//skin color
 	stroke('black');
 	ellipse(350, 390, 250, 100);
 
