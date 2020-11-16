@@ -20,20 +20,17 @@ function preload(){
  	imageMode(CENTER)
  }
 
-
-
 function draw(){
 	background('#F79765');
 //image//
 	image(honeymoonLogo, width/2, height/2 - 100, 250, 250)
 	
-
 //visualized alignment//
 	/*strokeWeight(1);
 	line(width/2, 0, width/2, height)
 	line(0, height/2, width, height/2)*/
 	
-//text//
+//text title//
 	textSize(60);
 	fill('#70442E');
 	textStyle(ITALIC)
@@ -41,8 +38,8 @@ function draw(){
 	textAlign(CENTER, TOP);
 	text(title, width/2, height / 2 );
 
+//text paragraph//
 	var titleWidth = textWidth(title)
-
 	textSize(12)
 	textAlign(CENTER)
 	fill('#3B2418')
